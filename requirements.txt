@@ -1,0 +1,86 @@
+# Core Django
+Django
+djangorestframework
+django-cors-headers
+django-environ
+django-extensions
+
+# Database
+psycopg2-binary
+django-timescaledb
+
+# Async/WebSockets
+channels
+channels-redis
+redis
+
+# Task Queue
+celery
+django-celery-beat
+django-celery-results
+
+# Authentication & Security
+djangorestframework-simplejwt
+django-oauth-toolkit
+cryptography
+
+# ML & Data Science
+scikit-learn
+tensorflow
+pandas
+numpy
+scipy
+joblib
+ta
+pandas-ta
+yfinance
+
+# Financial Data APIs
+yfinance  # Free Yahoo Finance data
+requests
+websocket-client
+# alpha-vantage  # Optional - has free tier with 500 calls/day
+# finnhub-python  # Optional - free tier available
+
+# Data Validation & Serialization
+marshmallow
+pydantic
+
+# Monitoring & Logging
+django-debug-toolbar
+sentry-sdk
+structlog
+
+# Performance & Caching
+django-redis
+django-cache-machine
+
+# Testing
+pytest
+pytest-django
+pytest-asyncio
+factory-boy
+freezegun
+
+# Development Tools
+black
+flake8
+isort
+pre-commit
+
+# API Documentation
+drf-spectacular
+
+# WebRTC Support (Python side)
+aiortc
+websockets
+
+# Time Series Analysis
+statsmodels
+plotly
+
+# Deployment
+gunicorn
+whitenoise
+django-storages
+boto3
